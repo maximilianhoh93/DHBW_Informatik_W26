@@ -14,6 +14,5 @@ print(df)
 
 # 1. Löschen sie Spalte score und geben sie das Ergebenis aus
 print()
-df_score=df.pop('score')
-print(df_score)
+
 

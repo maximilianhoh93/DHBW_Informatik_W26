@@ -27,4 +27,4 @@ plot = df.plot(title="Town Data",kind = 'bar')
 plt.gcf().set_size_inches(10,8)
 
 plt.savefig('pd_05_Town_Data.jpg', dpi=200)
-plt.show()
+#plt.show()

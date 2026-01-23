@@ -22,5 +22,4 @@ newdf = df.drop("attempts", axis='columns')
 
 print(newdf)
 
-x= "  Hello World".upper()
-print(x.strip())
+

@@ -10,11 +10,6 @@ print(df.loc[df['col1'] == 4])
 print()
 
 # 1. print alle Datensätze mit ['col3'] = 8 
-df_new = df.loc[df['col3'] == 8]
 
-print(df_new)
 
 # 2. print alle Datensätze mit (['col3'] = 8) & (['col1'] = 4)
-print(df.loc[(df['col3'] == 8) &  (df['col1'] == 4)])
-
-print(df.to_html())
