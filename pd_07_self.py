@@ -26,11 +26,11 @@ print(df)
 
 
 # 1. kopiere Zeile 2:5 in ein neues DataFrame df_new
-
+df_new = df.iloc[2:5]
 # 2. Schaue mit einer for Schleife ob sich 'James' in der neuen df_new befindet?
-
-for index, row in df.iterrows():
-    print(index)
+for index, row in df_new.iterrows():
+        if index == 'James':
+                print(index)
 
 
 

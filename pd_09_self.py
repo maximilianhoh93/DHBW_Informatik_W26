@@ -13,6 +13,9 @@ print(df[(df['attempts'] < 3) & (df['score'] > 15)])
 
 
 # 1. erzeuge ein DataFrame df_new mit den Datensätzen  ['qualify'] == 'no' & ['score'] > 5
-
+df_new = df[(df['qualify'] == 'no') & (df['score'] > 5)]
 
 # 2. Geben sie die Anzahl der Datensätze aus und auch die gefilterten Datensätze 
+
+print(df_new)
+print(len(df_new))

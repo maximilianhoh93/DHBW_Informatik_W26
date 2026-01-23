@@ -9,7 +9,7 @@
 # Anmerkungen:                                                                              #
 #############################################################################################
 
-DEBUG_INFO = True
+DEBUG_INFO = False
 
 # change this value for a different result
 my_str = "Hello this Is an Example With cased letters"
@@ -32,7 +32,7 @@ else:
 # breakdown the string into a list of words
 words = my_str_lower.split()
 
-# sort the words here -> add your code
+words.sort()
 
 
 if DEBUG_INFO:

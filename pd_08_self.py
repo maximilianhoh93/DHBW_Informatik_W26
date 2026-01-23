@@ -13,6 +13,8 @@ print("Number of attempts in the examination is greater than 2:")
 print(df[df['attempts'] > 2])
 
 # 1. erzeuge ein DataFrame df_new mit den Datensätzen  ['attempts'] < 3
-
+df_new = df[df['attempts'] < 3]
 
 # 2. Geben sie die Anzahl der Datensätze aus -> Anzahl 7
+print("Number of attempts in the examination is less than 3:")
+print(len(df_new))

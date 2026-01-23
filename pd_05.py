@@ -13,10 +13,14 @@ df = pd.DataFrame({'length': [1.5, 0.5, 1.2, 0.9, 3],
 '''
 
 df = pd.read_excel("pd05_data.xlsx")
+# DataFrame mit Daten zu verschiedenen Städten
 print(df)
+# wir lesen die Daten aus einer Excel-Datei ein
 df=df.set_index("Town")
+# wir setzen die Spalte "Town" als Index
 
 print(df)
+# wir geben den DataFrame aus
 
 plot = df.plot(title="Town Data",kind = 'bar')
 #plot = df.plot(title="Town Data",kind = 'line')

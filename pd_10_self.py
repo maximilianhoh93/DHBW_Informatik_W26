@@ -12,6 +12,6 @@ print("\nSum of the examination attempts by the students:")
 print("Summe attempts",df['attempts'].sum())
 
 # 1. print Anzahl der Datensätze
-
+print("Anzahl der Datensätze:", len(df))
 # 2. Aufsummieren der "score" Daten
-
+print("Summe score:", df['score'].sum())

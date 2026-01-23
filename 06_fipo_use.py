@@ -3,6 +3,9 @@ import fibo as fb
 l=fb.fib2(1000)
 print(l)
 
-print(fb.myfunc(20))
+import __init__.py as ini
+
+
+print(ini.myfunc(20))
 
 

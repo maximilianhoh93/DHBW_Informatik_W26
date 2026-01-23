@@ -12,9 +12,10 @@ exam_data  = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Mich
 
 
 # 1. create DataFrame df
-
+df=pd.DataFrame(exam_data) 
 # 2. set index of df to "name"
-
+df.set_index("name", inplace=True) 
 # 3. print DataFrame 
-
+print(df) 
 # 4. save df to excel into file 'pd_06_self.xlsx'
+df.to_excel('pd_06_self.xlsx', sheet_name='Exam Data') 
